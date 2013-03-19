@@ -3,7 +3,7 @@
 	url = https://github.com/Chinamobo/AFNetworking.git
 [submodule "Frameworks/RFUI/Core"]
 	path = Frameworks/RFUI/Core
-	url = https://github.com/RFUI/Core.git
+	url = https://github.com/jkyowt/RFUICore.git
 [submodule "Frameworks/RFUI/RFSegue"]
 	path = Frameworks/RFUI/RFSegue
-	url = https://bb9z@github.com/RFUI/RFSegue.git
+	url = git@github.com:jkyowt/RFSegue.git
