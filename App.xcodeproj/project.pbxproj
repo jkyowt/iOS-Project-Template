@@ -117,6 +117,7 @@
 		D57635E21623B95F00FCE9FB /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D57635DD1623B92F00FCE9FB /* SystemConfiguration.framework */; };
 		D5F2EA8A169D616C0067E7D3 /* en.lproj in Resources */ = {isa = PBXBuildFile; fileRef = D5F2EA88169D616C0067E7D3 /* en.lproj */; };
 		D5F2EA8B169D616C0067E7D3 /* zh-Hans.lproj in Resources */ = {isa = PBXBuildFile; fileRef = D5F2EA89169D616C0067E7D3 /* zh-Hans.lproj */; };
+		DED747911705CF5000F1BEE0 /* DataStack.m in Sources */ = {isa = PBXBuildFile; fileRef = DED747901705CF5000F1BEE0 /* DataStack.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -272,6 +273,8 @@
 		D57635DF1623B93600FCE9FB /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		D5F2EA88169D616C0067E7D3 /* en.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = en.lproj; sourceTree = "<group>"; };
 		D5F2EA89169D616C0067E7D3 /* zh-Hans.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "zh-Hans.lproj"; sourceTree = "<group>"; };
+		DED7478F1705CF5000F1BEE0 /* DataStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataStack.h; sourceTree = "<group>"; };
+		DED747901705CF5000F1BEE0 /* DataStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataStack.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -401,6 +404,8 @@
 		D526B2EF163817F7003087FF /* Core Data */ = {
 			isa = PBXGroup;
 			children = (
+				DED7478F1705CF5000F1BEE0 /* DataStack.h */,
+				DED747901705CF5000F1BEE0 /* DataStack.m */,
 				D526B2FC163818B3003087FF /* ExampleEntity+Cache.h */,
 				D526B2FD163818B4003087FF /* ExampleEntity+Cache.m */,
 				D526B2F016381830003087FF /* ExampleEntity.h */,
@@ -806,6 +811,7 @@
 				D57634C61623083400FCE9FB /* AFURLConnectionOperation.m in Sources */,
 				D57634C71623083400FCE9FB /* AFXMLRequestOperation.m in Sources */,
 				D51CC8911622EE3B00BE1083 /* AppDelegate.m in Sources */,
+				DED747911705CF5000F1BEE0 /* DataStack.m in Sources */,
 				D544EC731652042E000A1090 /* dout.m in Sources */,
 				D526B2FE163818B4003087FF /* ExampleEntity+Cache.m in Sources */,
 				D526B2F216381830003087FF /* ExampleEntity.m in Sources */,
